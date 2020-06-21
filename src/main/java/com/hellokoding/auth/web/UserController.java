@@ -50,7 +50,7 @@ public class UserController {
 
         if (logout != null)
             model.addAttribute("message", "You have been logged out successfully.");
-
+        System.out.println("check automatic build when commit");
         return "login";
     }
 
